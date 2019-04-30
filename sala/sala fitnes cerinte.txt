@@ -1,0 +1,30 @@
+Lant de sali de fitness:
+
+1. Adaugare Client-
+2. Afisare Client-
+3. Creare Abonament-
+4. Vizualizare Abonament-
+5. Extindere abonament-
+6. Adaugare Angajat-
+7. Afisare Angajat-
+8. Vizualizare Clase-
+9. Adaugare de Clase-
+10. Rezervare loc clasa-
+
+
+
+
+
+
+Tipuri de obiecte:
+
+1. Persoana
+2. Angajat
+3. Antrenor
+4. Client
+5. Abonament
+6. Clasa
+7. Locatii
+8. Echipamente
+
+
