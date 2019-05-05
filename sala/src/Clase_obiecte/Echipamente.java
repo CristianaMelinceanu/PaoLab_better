@@ -1,3 +1,5 @@
+package Clase_obiecte;
+
 import java.util.Date;
 
 public class Echipamente {

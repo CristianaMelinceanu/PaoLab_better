@@ -1,17 +1,20 @@
+package Clase_obiecte;
+
+import Clase_fiinte.Antrenor;
+import Clase_fiinte.Client;
+
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.Scanner;
 
 public class Clasa {
 
     private String nume;
-    private Angajat profesor;
+    private Antrenor profesor;
     private int numarLocuri;
     private ArrayList<Client> cursanti;
     private String sala;
     private String program;
 
-    public Clasa(String nume, Angajat profesor, int numarLocuri, ArrayList<Client> cursanti, String sala, String program) {
+    public Clasa(String nume, Antrenor profesor, int numarLocuri, ArrayList<Client> cursanti, String sala, String program) {
         this.nume = nume;
         this.profesor = profesor;
         this.numarLocuri = numarLocuri;
@@ -58,11 +61,11 @@ public class Clasa {
         this.numarLocuri = numarLocuri;
     }
 
-    public Angajat getProfesor() {
+    public Antrenor getProfesor() {
         return profesor;
     }
 
-    public void setProfesor(Angajat profesor) {
+    public void setProfesor(Antrenor profesor) {
         this.profesor = profesor;
     }
 
@@ -82,35 +85,35 @@ public class Clasa {
         this.program = program;
     }
 
-    public void adaugareClasa(Angajat a) {
-//        private String nume;
-//        private Angajat profesor;
-//        private int numarLocuri;
-//        private Client [] cursanti;
-//        private String sala;
-//        private String program
-        Scanner cin = new Scanner(System.in);
-        System.out.println("Ce clasa vrei sa adaugi?");
-        String c;
-        c = cin.nextLine();
-        this.nume = c;
-
-        this.profesor = a;
-
-        System.out.println("Cate locuri disponibile sunt?");
-        int x;
-        x = cin.nextInt();
-        this.numarLocuri = x;
-        c=cin.nextLine();
-
-        System.out.println("Unde se tine clasa?");
-        c = cin.nextLine();
-        this.sala = c;
-
-        System.out.println("Cand se tine clasa?");
-        c = cin.nextLine();
-        this.program = c;
-    }
+//    public void adaugareClasa(Clase_fiinte.Angajat a) {
+////        private String nume;
+////        private Clase_fiinte.Angajat profesor;
+////        private int numarLocuri;
+////        private Clase_fiinte.Client [] cursanti;
+////        private String sala;
+////        private String program
+//        Scanner cin = new Scanner(System.in);
+//        System.out.println("Ce clasa vrei sa adaugi?");
+//        String c;
+//        c = cin.nextLine();
+//        this.nume = c;
+//
+//        this.profesor = a;
+//
+//        System.out.println("Cate locuri disponibile sunt?");
+//        int x;
+//        x = cin.nextInt();
+//        this.numarLocuri = x;
+//        c=cin.nextLine();
+//
+//        System.out.println("Unde se tine clasa?");
+//        c = cin.nextLine();
+//        this.sala = c;
+//
+//        System.out.println("Cand se tine clasa?");
+//        c = cin.nextLine();
+//        this.program = c;
+//    }
 
     public void rezervareLoc(Client c)
     {

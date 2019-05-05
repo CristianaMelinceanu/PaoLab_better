@@ -1,3 +1,7 @@
+package Clase_fiinte;
+
+import Clase_fiinte.Persoana;
+
 import java.util.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

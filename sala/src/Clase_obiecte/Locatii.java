@@ -1,3 +1,5 @@
+package Clase_obiecte;
+
 public class Locatii {
 
     private String nume;

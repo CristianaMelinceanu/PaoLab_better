@@ -1,3 +1,8 @@
+import Clase_fiinte.Angajat;
+import Clase_fiinte.Client;
+import Clase_obiecte.Abonament;
+import Clase_obiecte.Clasa;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

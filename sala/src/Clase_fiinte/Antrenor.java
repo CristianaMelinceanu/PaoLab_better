@@ -1,3 +1,7 @@
+package Clase_fiinte;
+
+import Clase_fiinte.Persoana;
+
 public class Antrenor extends Persoana {
 
     private int tarifOra;
@@ -13,7 +17,9 @@ public class Antrenor extends Persoana {
         this.tarifOra=tarifOra;
     }
 
-
+    public String toString() {
+        return  nume+ " , " + email + " , " + numarTelefon + " , "+ varsta+ " , " + tarifOra + " \n ";
+    }
     public int getTarifOra() {
         return tarifOra;
     }
